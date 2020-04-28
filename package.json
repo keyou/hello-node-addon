@@ -1,0 +1,20 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "build": "cmake-js compile"
+  },
+  "cmake-js": {
+    "runtime": "electron",
+    "runtimeVersion": "4.2.12",
+    "arch": "x64"
+  },
+  "author": "keyou",
+  "license": "ISC",
+  "dependencies": {
+    "cmake-js": "^6.1.0"
+  }
+}
